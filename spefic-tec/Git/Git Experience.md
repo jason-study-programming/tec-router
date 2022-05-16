@@ -42,3 +42,10 @@ git config --global http.proxy localhost:7890
 
 
 5. GitHub have a file size restriction of 50M.
+
+6. 添加 origin
+
+```
+git remote add origin https://github.com/jason-study-programming/tec-router.git
+```
+

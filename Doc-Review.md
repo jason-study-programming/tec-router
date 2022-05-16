@@ -1,4 +1,4 @@
-# Reader Friendiness Rank
+# Reader Friendliness Rank
 
 
 ## Easy to understand 🥳
