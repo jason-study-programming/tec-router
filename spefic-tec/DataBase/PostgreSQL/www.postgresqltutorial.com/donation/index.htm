@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Donate to PostgreSQL Tutorial</title>
+    <meta name="description" content="Please support PostgreSQL Tutorial in create more useful contents now and in the future">
+    <link rel="icon" href="img/postgresql.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.min.css">
+    
+    <script async="" src="../gtag/js-1?id=UA-42139525-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+      gtag("config", "UA-42139525-1");
+    </script></head>
+
+<body>
+    <div class="container">
+
+        <div class="logo">
+            <a href="../index.htm" title="PostgreSQL Tutorial"><img src="../wp-content/uploads/2021/04/postgresql-tutorial.svg" alt="PostgreSQL Tutorial" width="178" height="53"></a>
+        </div><form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="donation-form" target="_blank">
+    <div class="donation">
+        <img src="img/heart.svg" alt="Thank you for your donation!" width="64" height="64" class="donation-icon">
+        <h1>Make a one-time donation</h1>
+        <p>Please support us to pay for web hosting and CDN to make the website faster for you.</p>
+
+        <div class="donation-field">
+            <label for="amount">I'm giving $</label>
+            <input type="number" name="amount" id="amount" class="amount" step="0.01" min="4.99" value="4.99" required="">
+        </div>
+        <div class="donation-error visually-hidden">Please donate at least $4.99.</div>
+
+
+
+        <div class="choices">
+
+                                    <button type="button" class="choice selected" data-amount="4.99">4.99</button>
+                                                <button type="button" class="choice" data-amount="9.99">9.99</button>
+                                                <button type="button" class="choice" data-amount="14.99">14.99</button>
+                        
+
+            <button type="button" class="choice" data-amount="19.99">Other</button>
+        </div>
+
+
+        <div class="cta">
+            <button type="submit">Donate Now</button>
+        </div>
+        <p class="donation-note">You'll be redirected to PayPal to donate.</p>
+    </div>
+
+    <input type="hidden" name="cmd" value="_donations">
+    <input type="hidden" name="business" value="givespecialthanks@gmail.com">
+    <input type="hidden" name="item_name" value="One-time Donation to PostgreSQL Tutorial">
+    <input type="hidden" name="cn" value="Any Special Note?">
+    <input type="hidden" name="currency_code" value="USD">
+    <input type="hidden" name="return" value="https://www.postgresqltutorial.com/donation/thankyou.php">
+</form></div>
+
+<script>
+const MININUM_DONATION = 4.99;
+</script>
+<script src="js/app.min.js"></script>
+</body>
+
+</html>

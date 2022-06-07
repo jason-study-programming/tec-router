@@ -1,6 +1,9 @@
 ## Frontend
 
+
+
 ## Backend
+
 CDN: A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content. (https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
 
 
@@ -26,6 +29,29 @@ MSA: Just to refresh our memories, micro service architecture is an evolution of
 
 
 ETL: which stands for extract, transform and load, is a data integration process that combines data from multiple data sources into a single, consistent data store that is loaded into a data warehouse or other target system. (https://www.ibm.com/cloud/learn/etl)
+
+RAID: Redundant Array of Independent Disks
+
+LVM: Logical Volume Manager
+
+DHCP: Dynamic Host Configuration Protocol
+
+LAN: local area network
+
+FTP: File Transfer Protocol
+
+SSH: Secure Shell
+
+VPN: virtual private network
+
+POSIX: Portable Operating System Interface
+
+
+
+## Project Management
+
+SCM: Supply chain management
+
 
 
 ## Others
